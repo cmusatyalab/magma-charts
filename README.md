@@ -5,9 +5,9 @@
 ### Orchestrator Charts
 ```
 cd ~
-git clone https://github/jblakley/magma-charts
-git clone https://github/magma/magma # substitute your preferred fork/branch of magma
-cd orc8r/cloud/helm/orc8r
+git clone https://github.com/cmusatyalab/magma-charts
+git clone https://github.com/magma/magma # substitute your preferred fork/branch of magma
+cd magma/orc8r/cloud/helm/orc8r
 # edit/modify charts as needed then update dependencies
 helm dependency update
 # package the charts
